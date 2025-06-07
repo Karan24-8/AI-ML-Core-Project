@@ -2,7 +2,7 @@
 
 
 
-#Project: Neural Networks from Scratch (MNIST Project)
+#**Project: Neural Networks from Scratch (MNIST Project)**
 
 - In this project, I have built a Neural Network from Scratch for classifying handwritten digits.
 - Note: No Neural Network built-in libraries have been used.
