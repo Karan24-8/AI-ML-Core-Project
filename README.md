@@ -2,13 +2,13 @@
 
 
 
-#**Project: Neural Networks from Scratch (MNIST Project)**
+##Project: Neural Networks from Scratch (MNIST Project)
 
 - In this project, I have built a Neural Network from Scratch for classifying handwritten digits.
 - Note: No Neural Network built-in libraries have been used.
 
 
-#Files:-
+###Files:-
 
 - Data Set: MNIST dataset.
 - Data Set Classification: 42000 training set (train.csv) + 28000 test set (test.csv)
@@ -16,13 +16,13 @@
 - Jupyter Notebook: Neural_Networks_from_Scratch_(MNIST_Project)_final.ipynb
 
 
-#Data:-
+###Data:-
 
 1. train.csv contains 42000 training set data with first column containing the labels (y_train) and the rest 784 columns containing the 784 pixels of 28x28 MNIST handwritten digit images (X_train).
 2. test.csv  contains 28000 test set data with only 784 columns corresponding to the 784 pixels of MNIST images. On this set, the generated model will have to predict the label/number (y-hat).
 
 
-#Approach:-
+###Approach:-
 
 1. Importing fundamental libraries- NumPy, Matplotlib, Pandas.
 2. Importing the training data from the file 'train.csv' using pandas.
@@ -42,7 +42,7 @@
 16. Using Pandas convert this array of predictions of test-set into a csv file - 'mnist_submission.csv'
 
 
-#Neural Network Architecture:-
+###Neural Network Architecture:-
 
 - Input Layer of array = 42000 x 784
 - Hidden Layer 1: relu activation; 25 units; W1.shape = (42000, 25); b1.shape = (25,)
@@ -50,7 +50,7 @@
 - Output Layer : softmax activation; 10 units; W3.shape = (15,10) ; b3.shape = (10,)
 
 
-#Neural Network Model:-
+###Neural Network Model:-
 
   A. Forward Prop:-
   - Helps to find Outputs of every layer.
@@ -61,7 +61,7 @@
   - Requires the definition of derivative of ReLU function and also requires One-Hot encoding of Y_train.
 
 
-#Cost Function:-
+###Cost Function:-
 
 - Finds the Cross-entropy Cost function.
 - It should be decreasing at every iteration of Gradient Descent.
