@@ -52,13 +52,13 @@
 
 #Neural Network Model:-
 
-A. Forward Prop:-
-- Helps to find Outputs of every layer.
-- Requires the definition of various activation functions: ReLU and Softmax.
+  A. Forward Prop:-
+  - Helps to find Outputs of every layer.
+  - Requires the definition of various activation functions: ReLU and Softmax.
 
-B. Back Prop:-
-- Helps to find the gradients in reverse direction of Forward Prop.
-- Requires the definition of derivative of ReLU function and also requires One-Hot encoding of Y_train.
+  B. Back Prop:-
+  - Helps to find the gradients in reverse direction of Forward Prop.
+  - Requires the definition of derivative of ReLU function and also requires One-Hot encoding of Y_train.
 
 
 #Cost Function:-
