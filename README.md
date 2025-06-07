@@ -4,16 +4,16 @@
 
 #Project: Neural Networks from Scratch (MNIST Project)
 
-In this project, I have built a Neural Network from Scratch for classifying handwritten digits.
-Note: No Neural Network built-in libraries have been used.
+- In this project, I have built a Neural Network from Scratch for classifying handwritten digits.
+- Note: No Neural Network built-in libraries have been used.
 
 
 #Files:-
 
-Data Set: MNIST dataset.
-Data Set Classification: 42000 training set (train.csv) + 28000 test set (test.csv)
-Prediction's file: mnist_submission.csv  (following the format of sample_submission.csv)
-Jupyter Notebook: Neural_Networks_from_Scratch_(MNIST_Project)_final.ipynb
+- Data Set: MNIST dataset.
+- Data Set Classification: 42000 training set (train.csv) + 28000 test set (test.csv)
+- Prediction's file: mnist_submission.csv  (following the format of sample_submission.csv)
+- Jupyter Notebook: Neural_Networks_from_Scratch_(MNIST_Project)_final.ipynb
 
 
 #Data:-
